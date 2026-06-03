@@ -1,1 +1,1 @@
-# Simulador copa do mundo! 🇧🇷 ⚽
+# Simulador copa do mundo! 💚💛💙⚽
