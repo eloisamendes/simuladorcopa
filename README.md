@@ -1,2 +1,1 @@
-# simuladorcopa
-Simulador de copa do mundo !
+# Simulador copa do mundo! 🇧🇷 ⚽
