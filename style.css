@@ -1,0 +1,292 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    font-family:'Trebuchet MS', sans-serif;
+
+    background: linear-gradient(
+        90deg,
+        #013322 0%,
+        #002f3d 50%,
+        #022850 100%
+    );
+
+    color:white;
+}
+
+.hero{
+    position:relative;
+
+    padding-top:60px;
+    padding-bottom:40px;
+
+    text-align:center;
+
+    border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+
+.trofeu{
+    position:absolute;
+
+    top:35px;
+    left:40px;
+
+    font-size:55px;
+}
+
+
+.estrela{
+    position:absolute;
+
+    color:#d6b322;
+
+    font-size:18px;
+}
+
+.e1{
+    top:20px;
+    left:10%;
+}
+
+.e2{
+    top:42px;
+    left:25%;
+}
+
+.e3{
+    top:55px;
+    right:20%;
+}
+
+.e4{
+    top:18px;
+    right:10%;
+}
+
+.e5{
+    top:80px;
+    left:48%;
+}
+
+
+.hero h1{
+    font-family:Georgia, serif;
+
+    font-size:72px;
+
+    color:#00c83c;
+
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:22px;
+
+    color:#ffd700;
+
+    font-weight:bold;
+
+    letter-spacing:1px;
+}
+
+
+.hexa{
+    font-size:35px;
+
+    margin-top:10px;
+
+    color:#ffd700;
+}
+
+
+.brasil{
+    display:flex;
+
+    justify-content:center;
+
+    gap:6px;
+
+    margin-top:25px;
+}
+
+.brasil span{
+    width:70px;
+    height:10px;
+
+    border-radius:20px;
+}
+
+.verde{
+    background:#00b84d;
+}
+
+.amarelo{
+    background:#f3c400;
+}
+
+.azul{
+    background:#0047b3;
+}
+
+.menu{
+    margin-top:45px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:12px;
+
+    flex-wrap:wrap;
+}
+
+.menu button{
+    padding:12px 25px;
+
+    border-radius:30px;
+
+    border:1px solid rgba(255,215,0,0.4);
+
+    background:transparent;
+
+    color:#ffd700;
+
+    font-size:16px;
+
+    cursor:pointer;
+}
+
+.menu .ativo{
+    background:#11c74b;
+
+    color:white;
+
+    border:none;
+}
+
+.trofeu{
+    position:absolute;
+
+    top:50px;
+    left:70px;
+
+    width:350px;
+    height:auto;
+}
+ 
+    .grupo{
+    max-width:1200px;
+    margin:80px auto;
+    padding:25px;
+}
+
+.titulo-grupo{
+    color:#FFD700;
+    margin-bottom:25px;
+    font-size:32px;
+}
+
+.conteudo-grupo{
+    display:flex;
+    gap: 200px;;
+    align-items:center;
+}
+
+.jogos{
+    flex:2;
+}
+
+.classificacao{
+    flex:1;
+}
+
+.rodada{
+    margin-bottom:25px;
+}
+
+.rodada h3{
+    margin-bottom:10px;
+    color:#d9d9d9;
+}
+
+.partida{
+    background:rgba(255,255,255,0.08);
+
+    border-radius:12px;
+
+    padding:15px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:10px;
+}
+
+.time{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    width:180px;
+}
+
+.bandeira{
+    width:32px;
+    height:22px;
+    object-fit:cover;
+    border-radius:3px;
+}
+
+.placar{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.placar input{
+    width:45px;
+    height:40px;
+
+    border:none;
+
+    border-radius:8px;
+
+    text-align:center;
+
+    font-size:16px;
+}
+
+.classificacao{
+    background:rgba(255,255,255,0.08);
+
+    border-radius:12px;
+
+    padding:15px;
+}
+
+.classificacao h3{
+    margin-bottom:15px;
+}
+
+.classificacao table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.classificacao th{
+    padding:10px;
+    background:#0f6b42;
+}
+
+.classificacao td{
+    padding:10px;
+    text-align:center;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
